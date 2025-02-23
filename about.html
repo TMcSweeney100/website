@@ -19,37 +19,58 @@
 
         
 
-        
+    
         <nav class="navbar navbar-expand-md">
-            <a class="navbar-brand" href="#">Logo</a>
+            <div class=" text-center">
+            <a class="navbar-brand">
+            </a>
             <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="main-navigation">
+            <div class="collapse navbar-collapse text-center" id="main-navigation">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="about.html">Cast</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#leave-review">Leave Review</a>
                     </li>
                 </ul>
+            </div>
             </div>
         </nav>
 
         <div class="background">
+            <h1 class="text center">Cast</h1>
             <div class="container team">
-                <div class="row">
+                <div class="row justify-content-center">
         
                     <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
-                        <img class="card-img-top rounded-circle" src="images/image.jpg" alt="Card image">
+                        <img class="card-img-top rounded-circle" src="images/download (2).jpeg" alt="Card image">
                         <div class="card-body">
-                            <h4 class="card-title">Jane Doe</h4>
-                            <p class="card-text">Job Description</p>
+                            <h4 class="card-title">Jack Sparrow</h4>
+                            <p class="card-text">Johnny Depp</p>
                         </div>
+                    </div>
+        
+                    <div class=" card col-lg-3 col-md-4 col-sm-4 text-center">
+                        <img class="card-img-top rounded-circle" src="images/elizabeth.webp">
+                        <div class="card-body">
+                            <h4 class="card-title">Elizabeth Swan</h4>
+                            <p class="card-text">Keira Knightley</p>
+                        </div>
+                    </div>
+        
+                    <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+                        <img class="card-img-top rounded-circle" src="images/will.webp">
+                        <div class="card-body">
+                            <h4 class="card-title">Will Turner</h4>
+                            <p class="card-text">Orlando Bloom</p>
+                        </div>
+        
                     </div>
                     
                 </div>
@@ -75,6 +96,33 @@
             <div>
             <div class="footer-copyright text-center">© 2020 Copyright: MyWebsite.com</div>
         </footer>
+        
+        
+        
+        <div id="demo-modal" class="modal fade">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img class="rounded-circle mx-auto" src="images/modalImg.png" alt="modal image">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                            <span>x</span>
+                        </button>
+                    </div>
+                    
+        
+        <div class="modal-body text-center">
+            <h4>Subscribe to our newsletter</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu.</p>
+            <div class="input-group">
+                <input type="email" class="form-control" placeholder="Enter your email address" name="email">
+                <div class="input-group-append">
+                    <input type="submit" class="btn" value="Subscribe">
+                </div>
+            </div>
+        </div>
+                </div>
+            </div>
+        </div>
         
         
             </body>

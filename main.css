@@ -4,7 +4,7 @@ body {
     background: #f2f6e9;
 }
 .navbar {
-    background:#12968d;
+    background:	#449FAF;
 }
 .nav-link,
 .navbar-brand {
@@ -21,9 +21,16 @@ body {
     justify-content: flex-end;
 }
 
+/* Resizing the logo in the navbar */
+
+.logo{
+    width: auto;
+    height:100px;
+
+}
 
 .header {
-    background-image: url('images/Untitled.jpeg ');
+    background-image: url('images/download.jpeg ');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -47,7 +54,7 @@ body {
 	text-align: center;
 }
 .description h1 {
-	color: #6ab446;
+	color:	#e6e1dd;
 }
 .description p {
 	color: #fff;
@@ -56,8 +63,8 @@ body {
 }
 
 .description button {
-    border:1px solid #6ab446;
-    background:#6ab446;
+    border:1px solid #449FAF;
+    background:#449FAF;
     border-radius: 0;
     color:#fff;
 }
@@ -105,7 +112,8 @@ body {
 }
 
 .background {
-	background: #dedec8;
+	color: #5e5e55;
+	background: #F4D499;
 	padding: 4em 0;
 }
 .team {
@@ -217,4 +225,8 @@ body {
 #demo-modal .btn:hover,
 #demo-modal .btn:focus {
     background-color: #12968d;
+}
+
+html {
+    scroll-behavior: smooth;
 }
